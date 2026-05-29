@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "news = \"Government launches new education policy\"\n",
+        "\n",
+        "fake_keywords = [\"shocking\", \"click here\", \"viral\"]\n",
+        "\n",
+        "is_fake = False\n",
+        "\n",
+        "for word in fake_keywords:\n",
+        "    if word in news.lower():\n",
+        "            is_fake = True\n",
+        "\n",
+        "            if is_fake:\n",
+        "                print(\"Fake News\")\n",
+        "                else:\n",
+        "                    print(\"Real News\")"
+      ],
+      "metadata": {
+        "id": "ty5S72KdhQzO",
+        "outputId": "f829af3f-0d38-446b-c3ba-ddd3142ccde7",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (1163511916.py, line 13)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2468/1163511916.py\"\u001b[0;36m, line \u001b[0;32m13\u001b[0m\n\u001b[0;31m    else:\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "xVbL8SYwg5wo"
+      },
+      "outputs": [],
+      "source": []
+    }
+  ]
+}
